@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav {
+    padding: 1rem;
+    background-color: #6ea8fe;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+.Menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.Menu li{
+    margin: 0 2rem;
+}
+.Menu li a {
+    font-size: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+.landing {
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1724271364272-fb23971633f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px 40px;
+}
+.title {
+    color: aliceblue;
+    font-size: 30px;
+    width: 100%;
+    padding: 1rem;
+}
+.mode {
+    background-color: #6ea8fe;
+    padding: 30px;
+    margin-top: 20px;
+}
+.mode-info {
+    text-align: center;
+    color: aliceblue;
+}
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    margin-top: 20px;
+}
+.blog-title {
+    margin: 2rem 0;
+}
+.blog-item img {
+    width: 100;
+}
+.blog-item h4 {
+    margin-top: 1rem;
+}
+.blog-item p {
+    margin: 1rem 0;
+}
+.blog-item a {
+    display: inline-block;
+    background-color: #0d6efd;
+    color: aliceblue;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease;
+}
+.link-container a {
+    text-decoration: none;
+    color: aliceblue; 
+    transition: color 0.3s ease;
+}
+
+.link-container a:hover {
+    color: #084298;
+}
