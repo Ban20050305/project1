@@ -1,5 +1,10 @@
 {
-    "rewrites":[
-        {"source":"vercel.json","destination":"index1.html"}
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/index1.html",
+        "permanent": true
+      }
     ]
-}
+  }
+  
